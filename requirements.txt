@@ -1,0 +1,21 @@
+# core
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+
+
+# PyTorch - install appropriate build for your system (update as needed)
+torch
+
+
+# utilities
+tqdm
+streamlit
+tensorboard
+
+
+# optional
+torchmetrics
+seaborn
