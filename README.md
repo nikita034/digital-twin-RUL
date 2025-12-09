@@ -1,5 +1,5 @@
 Multi-Task Transformer for Remaining Useful Life (RUL) & Degradation Rate (DR) Prediction
-📌 Project Overview
+Project Overview
 
 This repository implements an AI-Augmented Product Lifecycle Management (PLM) system designed for predictive maintenance in industrial environments.
 The core innovation is a Multi-Task Transformer model that simultaneously predicts:
@@ -12,17 +12,17 @@ By learning degradation patterns jointly with RUL, the model provides more accur
 
 The project integrates:
 
-✔ NASA C-MAPSS turbofan engine dataset
-✔ Multi-Task Transformer for RUL + DR
-✔ LSTM baseline comparison
-✔ Streamlit-based Digital Twin dashboard
-✔ Complete visualization suite (training curves, scatter plots, error histograms)
-✔ Fully modular training pipeline
+1. NASA C-MAPSS turbofan engine dataset
+2. Multi-Task Transformer for RUL + DR
+3. LSTM baseline comparison
+4. Streamlit-based Digital Twin dashboard
+5. Complete visualization suite (training curves, scatter plots, error histograms)
+6. Fully modular training pipeline
 
 This implementation supports Industry 4.0 & 5.0 initiatives by embedding AI into PLM for real-time, data-driven lifecycle management.
 
 Novelty: Multi-Task Transformer (RUL + DR)
-🔥 Why Multi-Task Learning?
+Why Multi-Task Learning?
 
 RUL prediction alone does not explain how quickly a machine is degrading.
 Adding Degradation Rate (DR) prediction helps the model learn:
@@ -33,18 +33,14 @@ Hidden failure progression
 
 Temporal patterns missed by single-task models
 
-🧩 Model Outputs:
+Model Outputs:
 Output	Description
 • RUL	Remaining operational cycles before failure
 • DR	Rate of RUL decrease across cycles
-📈 Observed Benefits:
+Observed Benefits:
 
 +16–20% improvement in RMSE
-
 Smoother RUL predictions
-
 Better end-of-life stability
-
 Physically meaningful DR trends
-
 Higher interpretability for engineers
